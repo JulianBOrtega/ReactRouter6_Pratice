@@ -1,0 +1,88 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body
+{
+    background: url('https://images6.alphacoders.com/714/714226.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:top;
+    background-color: gray;
+    background-blend-mode: darken;
+}
+
+input
+{
+    outline: none;
+}
+
+button
+{
+    border: none;
+}
+
+button:hover
+{
+    cursor: pointer;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+li
+{
+    list-style: none;
+}
+
+ol, ul
+{
+    padding:0px;
+}
+
+textarea {
+    resize: none;
+}
+
+.active
+{
+    color: white;
+    font-weight: 800;
+}
+
+
+/*! ||||||||||||||||||||||||||||| Images ||||||||||||||||||||||||||||| */
+
+.imageContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 98vw;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 20px 0px 20px
+}
+
+.cardImage
+{
+    background-color: rgba(0, 0, 0, 0.603);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.cardImage:hover
+{
+    background-color: rgba(65, 65, 65, 0.603);
+    transition: all 0.1s ease;
+}
+
+.cardImage .img
+{
+    width: 200px;
+}
